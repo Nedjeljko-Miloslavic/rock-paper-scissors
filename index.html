@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet"> 
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css" />
+	<title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+	<header>
+		<div id="game_name">
+			<span>rock</span>
+			<span>paper</span>
+			<span>scissors</span>
+		</div>
+		<div id="score">
+			<span>score</span>
+			<span>0</span>
+		</div>
+	</header>
+	<div id="triangle">
+		<div id="paper_scissors">
+			<div class="paper">
+				<div class="inner_1">
+					<div class="inner_2">
+						<div class="inner_3"></div>
+					</div>
+				</div>
+			</div>
+			<div class="scissors">
+				<div class="inner_1">
+					<div class="inner_2">
+						<div class="inner_3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="rock">
+			<div class="rock">
+				<div class="inner_1">
+					<div class="inner_2">
+						<div class="inner_3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="bg_opacity"></div>
+	<div id="win_background_container"></div>
+	<div id="rules">
+		<div id="rules_header">
+			<span>rules</span>
+			<div></div>
+		</div>
+		<div id="rules_bg"></div>
+	</div>
+	<span id="rules_span">rules</span>
+	<div class="rock" id="rock_2"></div>
+	<div class="lose">
+		<span class="result">YOU LOSE</span>
+		<div class="play_again">PLAY AGAIN</div>
+	</div>
+	<div class="win">
+		<span class="result">YOU WIN</span>
+		<div class="play_again">PLAY AGAIN</div>
+	</div>
+	<div class="draw">
+		<span class="result">IT'S A DRAW</span>
+		<div class="play_again">PLAY AGAIN</div>
+	</div>
+	<div id="you">YOU PICKED</div>
+	<div id="house">HOUSE PICKED</div>
+	<script src="app.js"></script>
+
+  
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		Coded by <a href="#">Your Name Here</a>.
+	</div>
+</body>
+</html>
